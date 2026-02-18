@@ -1,0 +1,15 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "jsx": "react",
+        "lib": ["DOM", "DOM.Iterable", "ES2020"],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "paths": {"@/*": ["./src/*"]},
+        "types": ["node"]
+    },
+    "include": ["src"],
+}

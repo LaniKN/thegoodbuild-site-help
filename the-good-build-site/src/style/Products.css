@@ -1,0 +1,111 @@
+.product-detail{
+    max-width:1100px;
+    margin:0 auto;
+    padding:130px 48px 80px;
+    display:flex;
+    gap:48px
+}
+ .product-gallery{
+    flex:1;
+    max-width:520px
+}
+ .product-gallery .main-img{
+    width:100%;
+    border-radius:var(--radius-md);
+    overflow:hidden;
+    background:#0a0a0a;
+    margin-bottom:12px
+}
+ .product-gallery .main-img img{
+    width:100%;
+    height:auto;
+    display:block
+}
+ .product-gallery .thumb-row{
+    display:flex;
+    gap:10px
+}
+ .product-gallery .thumb{
+    width:80px;
+    height:80px;
+    border-radius:var(--radius-sm);
+    overflow:hidden;
+    border:2px solid var(--border);
+    cursor:pointer;
+    transition:border-color .2s
+}
+ .product-gallery .thumb:hover,.product-gallery .thumb.active{
+    border-color:var(--accent)
+}
+ .product-gallery .thumb img{
+    width:100%;
+    height:100%;
+    object-fit:cover
+}
+ .product-info{
+    flex:1
+}
+ .product-info .build-card-tag{
+    margin-bottom:14px
+}
+ .product-info h1{
+    font-family:'Outfit',sans-serif;
+    font-weight:700;
+    font-size:30px;
+    color:var(--navy);
+    margin-bottom:8px
+}
+ .product-info .price-row{
+    display:flex;
+    align-items:baseline;
+    gap:12px;
+    margin-bottom:20px
+}
+ .product-info .price-row .build-price{
+    font-size:32px
+}
+ .product-info .condition-badge{
+    font-size:12px;
+    color:var(--text-light);
+    background:var(--off-white);
+    padding:4px 10px;
+    border-radius:100px
+}
+ .spec-table{
+    width:100%;
+    margin:20px 0
+}
+ .spec-table tr{
+    border-bottom:1px solid var(--border)
+}
+ .spec-table td{
+    padding:10px 0;
+    font-size:14px
+}
+ .spec-table td:first-child{
+    font-weight:600;
+    color:var(--navy);
+    width:140px
+}
+ .spec-table td:last-child{
+    color:var(--text-secondary)
+}
+ .product-info .buy-section{
+    margin-top:28px;
+    padding-top:24px;
+    border-top:1px solid var(--border)
+}
+ .product-info .includes{
+    margin-top:24px
+}
+ .product-info .includes h3{
+    font-size:14px;
+    font-weight:600;
+    color:var(--navy);
+    margin-bottom:8px
+}
+ .product-info .includes li{
+    font-size:13px;
+    color:var(--text-secondary);
+    margin-bottom:4px
+}

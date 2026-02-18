@@ -1,0 +1,31 @@
+section{
+    padding:90px 48px
+}
+ .section-inner{
+    max-width:1200px;
+    margin:0 auto
+}
+ .section-label{
+    font-family:'Outfit',sans-serif;
+    font-size:12px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:var(--accent);
+    margin-bottom:10px
+}
+ .section-title{
+    font-family:'Outfit',sans-serif;
+    font-weight:700;
+    font-size:34px;
+    letter-spacing:-.8px;
+    color:var(--navy);
+    margin-bottom:14px
+}
+ .section-subtitle{
+    font-size:16px;
+    line-height:1.7;
+    color:var(--text-secondary);
+    max-width:540px;
+    margin-bottom:44px
+}
